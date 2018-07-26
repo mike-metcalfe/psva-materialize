@@ -12,28 +12,61 @@
 </head>
 
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <div class="container">
-        <img href="#" class="brand-logo center" src="img/Capture.jpg"></img>
-        <ul id="nav-mobile" class="right hide-on-small-and-down">
-          <li>
+  <nav class="black z-depth-1">
+
+    <div class="container">
+
+      <div class="nav-wrapper">
+
+        <img href="#!" class="brand-logo center" src="img/Capture.jpg"></img>
+
+        <!-- <a class="button-collapse" data-activates="mobile-nav" href="#">
+          <i class="material-icons">menu</i>
+        </a> -->
+
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="right hide-on-med-and-down">
+          <li class="active">
             <a href="#">Home</a>
           </li>
           <li class="active">
             <a href="#">About</a>
           </li>
-          <li>
+          <li class="active">
             <a href="#">Contact</a>
           </li>
         </ul>
+
+        <ul class="sidenav" id="mobile-nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+        </ul>
+
       </div>
     </div>
   </nav>
 
 
-  <!--JavaScript at end of body for optimized loading-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+
 </body>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('.sidenav').sidenav();
+  });
+</script>
 
 </html>
