@@ -3,6 +3,95 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+/* Custom CSS */
+/* removed !import flag from responsive image class for .hero-map */
+
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem !important;
+}
+
+.hero-map {
+  height: 90vh;
+  width: 60rem;
+  padding-top: 11rem !important;
+}
+
+.sidenav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#take-action {
+  background-color: #d50000;
+  color: white;
+}
+
+#take-action p {
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+.take-action-header {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.take-action-padding {
+  margin-bottom: 0px !important;
+}
+
+.thick-divider {
+  height: 4px !important;
+  background-color: black !important;
+}
+
+#newsroom h4 {
+  font-weight: 600 !important;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* #newsroom td {
+  padding-top: 0px;
+} */
+
+td a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#newsroom {
+  background-image: url("https://88percentcampaign.com/images/svg/chicken-pattern-dark.svg");
+  background-repeat: repeat;
+  background-size: 22.8833px auto;
+}
+
+.newsroom-container {
+  background: white;
+}
+
+#learn-more h5 {
+color: #ff4300;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -2724,6 +2813,7 @@ img.responsive-img,
 video.responsive-video {
   max-width: 100%;
   height: auto;
+  padding-top: 17px;
 }
 
 .pagination li {
@@ -8486,10 +8576,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8542,10 +8641,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 

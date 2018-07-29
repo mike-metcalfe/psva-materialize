@@ -6,57 +6,257 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <nav class="black z-depth-1">
+  <nav class="white z-depth-1">
 
-    <div class="container">
+    <div class="nav-wrapper center container" role="navigation">
 
-      <div class="nav-wrapper">
+      <img href="#!" class="brand-logo center brand-logo-nav-bar" src="img/Capture.jpg" alt="psva logo"></img>
 
-        <img href="#!" class="brand-logo center" src="img/Capture.jpg"></img>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons" style="color:black">menu</i>
+      </a>
 
-        <!-- <a class="button-collapse" data-activates="mobile-nav" href="#">
-          <i class="material-icons">menu</i>
-        </a> -->
+      <ul class="left hide-on-med-and-down">
+        <li class="">
+          <a class="black-text" href="#learn-more">Learn More</a>
+        </li>
+        <li class="">
+          <a class="black-text" href="#take-action">Take Action</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="right hide-on-med-and-down">
+          <a class="black-text" href="#newsroom">Contact Us</a>
+        </li>
+        <li class="right hide-on-med-and-down">
+          <a class="black-text" href="#newsroom">Newsroom</a>
+        </li>
+      </ul>
 
-        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
+      <ul class="sidenav" id="mobile-nav">
+        <li class="sidenav-header red accent-4">
+          <div class="row">
+            <div class="col s4 offset-s4">
+              <img src="img/Capture.jpg" width="78px" height="78px" alt="psva logo" class="mobile-nav-logo square responsive-img valign profile-image">
+            </div>
+            <li>
+              <!-- <div class="divider"></div> -->
+            </li>
+            <li>
+              <a href="#learn-more" class="sidenav-close black-text center">Learn More</a>
+            </li>
+            <li>
+              <a href="#take-action" class="sidenav-close black-text center">Take Action</a>
+            </li>
+            <li>
+              <a href="#newsroom" class="sidenav-close black-text center">Newsroom</a>
+            </li>
+      </ul>
 
-        <ul class="right hide-on-med-and-down">
-          <li class="active">
-            <a href="#">Home</a>
-          </li>
-          <li class="active">
-            <a href="#">About</a>
-          </li>
-          <li class="active">
-            <a href="#">Contact</a>
-          </li>
-        </ul>
 
-        <ul class="sidenav" id="mobile-nav">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Home</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
   </nav>
 
+  <!-- Showcase Section -->
+  <section>
+    <div class="row">
+      <!-- <div class="container"> -->
+      <div class="col s12 m8 offset-m2">
+        <img src="img/hendrik-morkel-580658-unsplash(1).jpg" alt="berm map and proposed changes" class=" responsive-img hero-map">
+      </div>
+      <!-- </div> -->
+    </div>
+  </section>
 
+  <div class="divider thick-divider"></div>
+
+  <!-- Learn More Section -->
+
+  <section id="learn-more">
+    <div class="row">
+      <!-- <div class="container"> -->
+      <div class="col s12">
+        <h3 class="center">About The Berm Campaign</h3>
+        <div class="learn-more-table">
+
+          <div class="row">
+            <div class="container">
+              <div class="the-issues">
+                <div class="the-issues-title col s12 l2">
+                  <h5 class="red-text text-accent-4">The Issues</h5>
+                </div>
+                <div class="the-issues-content col s12 l10">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio atque quia repellendus dolore amet
+                    magnam cumque sit aliquam, illo officiis possimus, exercitationem doloribus excepturi nemo nesciunt consectetur.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio atque quia repellendus dolore amet
+                    magnam cumque sit aliquam, illo officiis possimus, exercitationem doloribus excepturi nemo nesciunt consectetur.
+                    Architecto, alias! Aspernatur.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quis, ut voluptatum dolor pariatur deleniti
+                    fugiat libero quo accusamus exercitationem quas vero ipsum quod itaque quisquam quaerat sapiente, aut
+                    id!
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="container">
+              <div class="our-position">
+                <div class="our-position-title col s12 l2">
+                  <h5 class="red-text text-accent-4">Our Position</h5>
+                </div>
+                <div class="our-position-content col s12 l10">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit enim eveniet quia, error aliquid
+                    cum quisquam dolore recusandae, laboriosam autem numquam maxime! Deleniti, nostrum! Quae nobis molestiae
+                    impedit deleniti?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="container">
+              <div class="get-involved">
+                <div class="get-involved-title col s12 l2">
+                  <h5 class="red-text text-accent-4">Get Involved</h5>
+                </div>
+                <div class="get-involved-content col s12 l10">
+                  <p>Accusamus maxime atque quisquam, sapiente porro, repellendus ipsam deleniti eligendi dicta dolores eos
+                    assumenda fugit exercitationem odio facere.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio atque quia repellendus dolore amet
+                    magnam cumque sit aliquam, illo officiis possimus, exercitationem doloribus excepturi nemo nesciunt consectetur.
+                    Architecto, alias! Aspernatur.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quis, ut voluptatum dolor pariatur deleniti
+                    fugiat libero quo accusamus exercitationem quas vero ipsum quod itaque quisquam quaerat sapiente, aut
+                    id!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <a class="waves-effect waves-light btn col s4 offset-s4 red accent-4">
+          <i class="material-icons left">cloud_download</i>Download
+          <span class="hide-on-med-and-down">Our Facts Sheet Here!</span>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <div class="divider thick-divider"></div>
+  <!-- Take Action Section -->
+
+  <section id="take-action">
+
+    <div class="container">
+      <div class="row take-action-padding">
+        <div class="container">
+          <h4 class="col s4 offset-s4 white-text take-action-header center">Actions</h4>
+        </div>
+      </div>
+
+
+      <div class="row icon-section">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text">
+              <i class="material-icons medium white-text text-darken-4">flash_on</i>
+            </h2>
+            <h5 class="center">GET SOCIAL</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.
+              Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text">
+              <i class="material-icons medium white-text text-darken-4">group</i>
+            </h2>
+            <h5 class="center">WRITE A LETTER</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates
+              components and animations that provide more feedback to users. Additionally, a single underlying responsive
+              system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text">
+              <i class="material-icons medium white-text text-darken-4">settings</i>
+            </h2>
+            <h5 class="center">COME TO A MEETING!</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are
+              also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Newsroom Section -->
+
+  <div class="divider thick-divider"></div>
+
+  <section id="newsroom">
+    <div class="newsroom-container">
+      <div class="row">
+        <h4 class="col s4 push-s4 black-text center take-action-header">NEWSROOM</h4>
+      </div>
+      <div class="row">
+        <div class="col s4 push-s4">
+          <table class="centered">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="" target="blank" class="black-text flow-text">Berm Campaign: Fact Sheet</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="" target="blank" class="black-text flow-text">Berm Campaign: Case Study</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="" target="blank" class="black-text flow-text">LFP Article on Development</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="" target="blank" class="black-text flow-text">St. Thomas Star On Dillon & Assc.</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="" target="blank" class="black-text flow-text">Contact
+                    <br> Port Stanley Village Association:
+                    <br> Phone: 555-555-5555
+                    <br> Email: tom@email.com
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 <!--Import jQuery before materialize.js-->
@@ -66,6 +266,7 @@
 <script>
   $(document).ready(function () {
     $('.sidenav').sidenav();
+
   });
 </script>
 
