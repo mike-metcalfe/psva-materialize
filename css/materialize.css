@@ -50,6 +50,10 @@ nav a {
   font-weight: 600;
 }
 
+.icon-section {
+  margin-bottom: 0px !important;
+}
+
 .take-action-padding {
   margin-bottom: 0px !important;
 }
@@ -75,9 +79,9 @@ td a {
 }
 
 #newsroom {
-  background-image: url("https://88percentcampaign.com/images/svg/chicken-pattern-dark.svg");
+  background-image: url("https://image.ibb.co/ecQweT/1339605496.png");
   background-repeat: repeat;
-  background-size: 22.8833px auto;
+  background-size: 22px auto;
 }
 
 .newsroom-container {
